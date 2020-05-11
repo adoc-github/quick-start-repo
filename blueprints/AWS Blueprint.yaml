@@ -20,8 +20,6 @@ inputs:
 
 
 applications:
-  - basic-app:
-      instances: 1
 
   - advanced-app:
       instances: 1
