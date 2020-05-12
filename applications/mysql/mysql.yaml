@@ -11,8 +11,12 @@ inputs:
   - DB_USER
   - DB_PASS
   - DB_NAME
-  - VM_Type
-  - AWS_Instance_Type
+  - VM_Type:
+      optional: true
+      default_value: Standard_A2  
+  - AWS_Instance_Type:
+      optional: true
+      default_value: t2.medium
 # This section defines the infrastructure requirements for the application
 infrastructure:
   # Specify the compute requirement for this app
