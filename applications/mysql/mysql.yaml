@@ -22,6 +22,7 @@ infrastructure:
         instance_type: t2.medium
       azure:
         vm_size: $VM_Type
+
   connectivity:
     # Port 3306 will be opened internally to receive database requests
     internal:
