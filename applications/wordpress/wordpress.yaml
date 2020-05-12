@@ -15,13 +15,14 @@ inputs:
   - DB_PASS
   - DB_NAME
   - VM_Type
+  - AWS_Instance_Type
 infrastructure:
   # Specify the compute requirement for this app
   # if we don't specify anything the default will be used
   compute:
     spec:
       aws:
-        instance_type: t2.medium
+        instance_type: $AWS_Instance_Type
       azure:
         vm_size: $VM_Type
 
