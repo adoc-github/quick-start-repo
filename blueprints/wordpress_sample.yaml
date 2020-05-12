@@ -18,6 +18,10 @@ inputs:
       description: please set the root database passwor
       default_value: 12345  # Used to define the db admin password
   - DB_NAME: wordpress_demo  # DB_NAME - a target database name
+  - gouhara_param1: hello
+  - gouhara_param2:
+      description: konichiwa
+      default_value: Hello World
 
 # These are the applications that will be deployed in this blueprint
 applications:
