@@ -23,12 +23,3 @@ applications:
   - basic-app:
       instances: 1
 
-  - advanced-app:
-      instances: 1
-      depends_on:
-        - basic-app
-      input_values:
-        - port_number : $advanced_app_port
-
-
-
