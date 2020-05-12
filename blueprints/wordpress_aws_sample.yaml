@@ -18,9 +18,6 @@ inputs:
       description: please set the root database passwor
       default_value: 12345  # Used to define the db admin password
   - DB_NAME: wordpress_demo  # DB_NAME - a target database name
-  - VM_Type:
-      description: VM Hardware Profile to use for Azure Deployment
-      default_value: Standard_A2
   - AWS_Type:
       description: VM Hardware Profile for AWS
       default_value: t2.small
