@@ -20,7 +20,7 @@ inputs:
   - DB_NAME: wordpress_demo  # DB_NAME - a target database name
   - AWS_Type:
       description: VM Hardware Profile for AWS
-      default_value: t2.small
+      default_value: t2.micro
 
 # These are the applications that will be deployed in this blueprint
 applications:
