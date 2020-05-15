@@ -20,7 +20,7 @@ inputs:
   - DB_NAME: wordpress_demo  # DB_NAME - a target database name
   - VM_Type:
       description: VM Hardware Profile to use for Azure Deployment
-      default_value: Standard_A2
+      default_value: Standard_B1s
 
 # These are the applications that will be deployed in this blueprint
 applications:
