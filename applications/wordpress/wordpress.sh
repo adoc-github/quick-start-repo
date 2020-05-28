@@ -51,6 +51,6 @@ sed -i "s/username_here/$DB_USER/g" wp-config.php
 sed -i "s/password_here/$DB_PASS/g" wp-config.php
 sed -i "s/localhost/mysql.$DOMAIN_NAME/g" wp-config.php
 
-systemctl restart apache2.service
+#systemctl restart apache2.service
 
 
