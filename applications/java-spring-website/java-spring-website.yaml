@@ -26,7 +26,7 @@ infrastructure:
   compute:
     spec:
       aws:
-        instance_type: t2.medium
+        instance_type: t2.micro
       azure:
         vm_size: Basic_A2
 
