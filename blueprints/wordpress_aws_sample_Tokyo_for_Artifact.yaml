@@ -27,7 +27,7 @@ artifacts:
 
 # These are the applications that will be deployed in this blueprint
 applications:
-  - mysql-test:  # One instance of mysql (see: applications/mysql/mysql.yaml)
+  - mysql:  # One instance of mysql (see: applications/mysql/mysql.yaml)
       input_values:
         - DB_USER: $DB_USER
         - DB_PASS: $DB_PASS
@@ -35,7 +35,7 @@ applications:
         - AWS_Instance_Type: $AWS_Type
         - VM_Type: Standard_A2
   # One instance of WordPress (see: applications/wordpress/wordpress.yaml)
-  - wordpress-test:
+  - wordpress:
       instances: 1
       input_values:
         - DB_USER: $DB_USER
