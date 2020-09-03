@@ -30,7 +30,7 @@ applications:
         - DB_PASS: $DB_PASS
         - DB_NAME: $DB_NAME
         - AWS_Instance_Type: $AWS_Type
-        - VM_Type: Standard_A2
+        - VM_Type: none
   # One instance of WordPress (see: applications/wordpress/wordpress.yaml)
   - test-wordpress:
       instances: 1
@@ -39,7 +39,7 @@ applications:
         - DB_PASS: $DB_PASS
         - DB_NAME: $DB_NAME
         - AWS_Instance_Type: $AWS_Type
-        - VM_Type: Standard_A2
+        - VM_Type: nene
       # The wodpress site depends on MySQL and will start deploying
       # only when the database is ready
       depends_on:
