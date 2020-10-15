@@ -24,7 +24,7 @@ inputs:
 
 # These are the applications that will be deployed in this blueprint
 applications:
-  - test-mysql:  # One instance of mysql (see: applications/mysql/mysql.yaml)
+  - mysql:  # One instance of mysql (see: applications/mysql/mysql.yaml)
       input_values:
         - DB_USER: $DB_USER
         - DB_PASS: $DB_PASS
