@@ -5,7 +5,7 @@
 #    https://colonysupport.quali.com/hc/en-us/articles/360001632548-The-Blueprint-YAML-File
 #
 ---
-spec_version: 1
+spec_version: 2
 kind: blueprint
 
 metadata:
