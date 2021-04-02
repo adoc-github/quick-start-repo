@@ -25,7 +25,7 @@ systemctl start apache2
 echo "****************************************************************"
 echo "Installing PHP Modules"
 echo "****************************************************************"
-apt-get install php7.0 php7.0-mysql libapache2-mod-php7.0 php7.0-cli php7.0-cgi php7.0-gd -y
+apt-get install php8.0 php8.0-mysql libapache2-mod-php8.0 php8.0-cli php8.0-cgi php8.0-gd -y
 
 
 
