@@ -45,17 +45,17 @@ source:
   os_type: linux
   image:
     ami:
-      - id: ami-08bac620dc84221eb
+      - id: ami-06fd78dc2f0b69910
         region: eu-west-1
         username: ubuntu
-      - id: ami-059b6d3840b03d6dd
+      - id: ami-0ef85cf6e604e5650
         region: ap-northeast-1
         username: ubuntu
     azure_image:
-      - urn: Canonical:UbuntuServer:20.04-LTS:latest
+      - urn: Canonical:UbuntuServer:18.04-LTS:latest
         username: adminuser
     docker_image:
-      - tag: 20.04
+      - tag: 18.04
         name: ubuntu
 
 configuration:
